@@ -2,7 +2,7 @@ import { UnauthenticatedError } from  '../errors/CustomErrors.js';
 import { verifyJWT } from '../utils/tokenUtils.js';
 import {
   BadRequestError,
-} from '../errors/customErrors.js';
+} from '../errors/CustomErrors.js';
 
 
 export const authenticateUser = (req, res, next) => {
